@@ -1,12 +1,8 @@
 package com.platzerworld.biergartenfinder;
 
-import android.*;
-import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.location.Criteria;
-import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -15,12 +11,9 @@ import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.os.ResultReceiver;
 import android.provider.Settings;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -28,19 +21,9 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.GoogleApiAvailability;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.LocationServices;
-import com.platzerworld.biergartenfinder.basic.BasicFragmentActivity;
-import com.platzerworld.biergartenfinder.googleplayservices.BasicLocationActivity;
-import com.platzerworld.biergartenfinder.maps.MapsParentActivity;
-import com.platzerworld.biergartenfinder.services.Constants;
 import com.platzerworld.biergartenfinder.services.GPSTracker;
-import com.platzerworld.biergartenfinder.services.GeocodeService;
 
 public class BiergartenActivity extends AppCompatActivity  {
 
@@ -153,6 +136,15 @@ public class BiergartenActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(BiergartenActivity.this, GooglePlayServicesActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btnGoogleMaps = (Button)findViewById(R.id.btnGoogleMaps);
+        btnGoogleMaps.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(BiergartenActivity.this, GoogleMapsServicesActivity.class);
                 startActivity(intent);
             }
         });

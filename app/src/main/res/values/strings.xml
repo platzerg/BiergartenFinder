@@ -125,4 +125,7 @@
 
     <string name="reg_success">GCM Successfully registered. You may now start sending messages from GCM.</string>
     <string name="reg_error">There seems to have been an error registering with GCM. :-(</string>
+    <string name="title_activity_google_maps_main">GoogleMapsMainActivity</string>
+    <string name="title_activity_google_maps_services">GoogleMapsServicesActivity</string>
+    <string name="title_activity_maps_basic">MapsBasicActivity</string>
 </resources>

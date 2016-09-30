@@ -8,14 +8,14 @@
          location permissions for the 'MyLocation' functionality. 
     -->
     <uses-permission android:name="android.permission.INTERNET" />
-
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
-    <permission android:name="com.platzerworld.biergartenfinder.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <permission
+        android:name="com.platzerworld.biergartenfinder.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
 
     <uses-permission android:name="com.platzerworld.biergartenfinder.permission.C2D_MESSAGE" />
-
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -34,7 +34,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <receiver
-            android:name="com.platzerworld.biergartenfinder.receiver.ConnectionChangeReceiver"
+            android:name=".receiver.ConnectionChangeReceiver"
             android:enabled="true">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
@@ -45,38 +45,42 @@
         <receiver
             android:name="com.google.android.gms.gcm.GcmReceiver"
             android:exported="true"
-            android:permission="com.google.android.c2dm.permission.SEND" >
+            android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
                 <category android:name="com.platzerworld.biergartenfinder" />
             </intent-filter>
         </receiver>
 
-        <!-- the GcmListenerService enables various messaging features and provides
-            the place where your code overrides the onMessageReceived method -->
+        <!--
+             the GcmListenerService enables various messaging features and provides
+            the place where your code overrides the onMessageReceived method
+        -->
         <service
-            android:name="com.platzerworld.biergartenfinder.googleplayservices.MyGcmListenerService"
-            android:exported="false" >
+            android:name=".googleplayservices.MyGcmListenerService"
+            android:exported="false">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
             </intent-filter>
         </service>
 
-        <!-- In some cases, registration tokens need to be refreshed - usually for
-            security reasons or if the device information is no longer valid -->
+        <!--
+             In some cases, registration tokens need to be refreshed - usually for
+            security reasons or if the device information is no longer valid
+        -->
         <service
             android:name=".googleplayservices.InstanceIDRefreshService"
             android:exported="false">
             <intent-filter>
-                <action android:name="com.google.android.gms.iid.InstanceID"/>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
             </intent-filter>
         </service>
 
         <!-- this service is used to kick off the token retrieval off the main UI thread -->
         <service
-            android:name="com.platzerworld.biergartenfinder.googleplayservices.GcmRegisterService"
+            android:name=".googleplayservices.GcmRegisterService"
             android:exported="false" />
-
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -104,7 +108,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MapsActivity"
+            android:name=".googlemaps.MapsActivity"
             android:label="@string/showmaps"
             android:theme="@style/AppTheme.NoActionBar">
 
@@ -141,13 +145,6 @@
             android:label="@string/title_activity_fullscreen"
             android:parentActivityName=".BiergartenActivity"
             android:theme="@style/FullscreenTheme">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
-        </activity>
-        <activity
-            android:name=".maps.MapsParentActivity"
-            android:label="@string/title_activity_maps_parent">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
@@ -291,6 +288,33 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.platzerworld.biergartenfinder.GooglePlayServicesActivity" />
+        </activity>
+        <activity
+            android:name=".googlemaps.GoogleMapsMainActivity"
+            android:label="@string/title_activity_google_maps_main"
+            android:parentActivityName=".BiergartenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
+        </activity>
+        <activity
+            android:name=".GoogleMapsServicesActivity"
+            android:label="@string/title_activity_google_maps_services"
+            android:parentActivityName=".BiergartenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
+        </activity>
+        <activity
+            android:name=".googlemaps.MapsBasicActivity"
+            android:label="@string/title_activity_maps_basic"
+            android:parentActivityName=".GoogleMapsServicesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.GoogleMapsServicesActivity" />
         </activity>
     </application>
 
