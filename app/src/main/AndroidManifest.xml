@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.platzerworld.biergartenfinder">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <permission android:name="com.platzerworld.biergartenfinder.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.platzerworld.biergartenfinder.permission.C2D_MESSAGE" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver
+            android:name="com.platzerworld.biergartenfinder.receiver.ConnectionChangeReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- this class receives messages from GCM. -->
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.platzerworld.biergartenfinder" />
+            </intent-filter>
+        </receiver>
+
+        <!-- the GcmListenerService enables various messaging features and provides
+            the place where your code overrides the onMessageReceived method -->
+        <service
+            android:name="com.platzerworld.biergartenfinder.googleplayservices.MyGcmListenerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <!-- In some cases, registration tokens need to be refreshed - usually for
+            security reasons or if the device information is no longer valid -->
+        <service
+            android:name=".googleplayservices.InstanceIDRefreshService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID"/>
+            </intent-filter>
+        </service>
+
+        <!-- this service is used to kick off the token retrieval off the main UI thread -->
+        <service
+            android:name="com.platzerworld.biergartenfinder.googleplayservices.GcmRegisterService"
+            android:exported="false" />
+
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".BiergartenActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/showmaps"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!--
+            android:parentActivityName=".BiergartenActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
+            -->
+
+        </activity>
+        <activity
+            android:name=".basic.BasicFragmentActivity"
+            android:label="@string/title_activity_basic_fragment"
+            android:parentActivityName=".BiergartenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
+        </activity>
+        <activity
+            android:name=".basic.BasicActivity"
+            android:label="@string/title_activity_basic"
+            android:parentActivityName=".BiergartenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
+        </activity>
+        <activity android:name=".empty.EmptyActivity" />
+        <activity
+            android:name=".fullscreen.FullscreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fullscreen"
+            android:parentActivityName=".BiergartenActivity"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
+        </activity>
+        <activity
+            android:name=".maps.MapsParentActivity"
+            android:label="@string/title_activity_maps_parent">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
+        </activity>
+        <activity
+            android:name=".login.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:parentActivityName=".BiergartenActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
+        </activity>
+        <activity
+            android:name=".masterdetails.ItemListActivity"
+            android:label="@string/title_item_list"
+            android:parentActivityName=".BiergartenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
+        </activity>
+        <activity
+            android:name=".masterdetails.ItemDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName=".masterdetails.ItemListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.masterdetails.ItemListActivity" />
+        </activity>
+        <activity
+            android:name=".navigationdrawer.NavigationDrawerActivity"
+            android:label="@string/title_activity_navigation_drawer"
+            android:parentActivityName=".BiergartenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
+        </activity>
+        <activity
+            android:name=".setting.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".BiergartenActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
+        </activity>
+        <activity
+            android:name=".tabbed.TabbedActivity"
+            android:label="@string/title_activity_tabbed"
+            android:parentActivityName=".BiergartenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
+        </activity>
+        <activity
+            android:name=".maps.GoogleMapsActivity"
+            android:label="@string/title_activity_google_maps">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
+        </activity>
+
+        <service
+            android:name=".services.GeocodeService"
+            android:exported="false" />
+
+        <activity
+            android:name=".GooglePlayServicesActivity"
+            android:label="@string/title_activity_google_play_services"
+            android:parentActivityName=".BiergartenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
+        </activity>
+        <activity
+            android:name=".googleplayservices.BasicLocationActivity"
+            android:label="@string/title_activity_basic_location"
+            android:parentActivityName=".GooglePlayServicesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.GooglePlayServicesActivity" />
+        </activity>
+        <activity
+            android:name=".googleplayservices.RecurringLocationActivity"
+            android:label="@string/title_activity_recurring_location"
+            android:parentActivityName=".GooglePlayServicesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.GooglePlayServicesActivity" />
+        </activity>
+        <activity
+            android:name=".googleplayservices.GoogleSignInActivity"
+            android:label="@string/title_activity_google_sign_in"
+            android:parentActivityName=".GooglePlayServicesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.GooglePlayServicesActivity" />
+        </activity>
+        <activity
+            android:name=".googleplayservices.GoogleDriveActivity"
+            android:label="@string/title_activity_google_drive"
+            android:parentActivityName=".GooglePlayServicesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.GooglePlayServicesActivity" />
+        </activity>
+        <activity
+            android:name=".googleplayservices.CurrentPlaceActivity"
+            android:label="@string/title_activity_current_place"
+            android:parentActivityName=".GooglePlayServicesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.GooglePlayServicesActivity" />
+        </activity>
+        <activity
+            android:name=".googleplayservices.PlaceCompleteActivity"
+            android:label="@string/title_activity_place_complete"
+            android:parentActivityName=".GooglePlayServicesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.GooglePlayServicesActivity" />
+        </activity>
+        <activity
+            android:name=".googleplayservices.PlacePickerActivity"
+            android:label="@string/title_activity_place_picker"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".googleplayservices.GCMEActivity"
+            android:label="@string/title_activity_gcme"
+            android:parentActivityName=".GooglePlayServicesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.GooglePlayServicesActivity" />
+        </activity>
+    </application>
+
+</manifest>

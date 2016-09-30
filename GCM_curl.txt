@@ -1,0 +1,24 @@
+
+-- SEND TO A TOPIC
+
+curl \
+-H "Content-Type:application/json" \
+-H "Authorization:key=AIzaSyA4fhv0QqB5MHQ45OriIEVcwZWuJrGdBRI" \
+--data '{ "to": "/topics/topic1","data": { "message": "This is a message" } }' \
+https://gcm-http.googleapis.com/gcm/send
+
+curl \
+-H "Content-Type:application/json" \
+-H "Authorization:key=AIzaSyA4fhv0QqB5MHQ45OriIEVcwZWuJrGdBRI" \
+--data '{ "to": "/topics/topic2","data": { "message": "This is a message" } }' \
+https://gcm-http.googleapis.com/gcm/send
+
+
+-- SEND TO SPECIFIC ID
+
+curl \
+-H "Content-Type:application/json" \
+-H "Authorization:key=AIzaSyA4fhv0QqB5MHQ45OriIEVcwZWuJrGdBRI" \
+--data '{ "to": "edIX45gRrOs:APA91bFDlCr82mpZFZ--WjymdtYbLUatEZlSJhxNFAADSauN1RTPHIIpwnVM5QlE3saXSdxFJrLdWcJwfIiRrZKW9Sk2Jz_zLk6t7M1HCkkIC31oNtq9ic95arQnuCatYTXLGNWsJl7d","data": { "message": "Sending to a specific token" } }' \
+https://gcm-http.googleapis.com/gcm/send
+

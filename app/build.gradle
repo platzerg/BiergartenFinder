@@ -1,0 +1,109 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.2"
+    defaultConfig {
+        applicationId "com.platzerworld.biergartenfinder"
+        minSdkVersion 18
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+// Espresso core
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+// Espresso-contrib for DatePicker, RecyclerView, Drawer actions, Accessibility checks, CountingIdlingResource
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+// Espresso-web for WebView support
+    androidTestCompile('com.android.support.test.espresso:espresso-web:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+// Espresso-idling-resource for synchronization with background jobs
+    androidTestCompile('com.android.support.test.espresso:espresso-idling-resource:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+// Espresso-intents for validation and stubbing of Intents
+    androidTestCompile('com.android.support.test.espresso:espresso-intents:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+// UiAutomator
+    androidTestCompile('com.android.support.test.uiautomator:uiautomator-v18:2.1.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+
+
+
+    androidTestCompile ('com.android.support.test:rules:0.5', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    androidTestCompile ('org.mockito:mockito-core:1.9.5', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    androidTestCompile ('com.google.dexmaker:dexmaker:1.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    androidTestCompile ('com.google.dexmaker:dexmaker-mockito:1.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    androidTestCompile ('org.robolectric:robolectric:3.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+    androidTestCompile ('org.mockito:mockito-core:1.9.5', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+
+    testCompile "org.robolectric:robolectric:3.0"
+
+
+
+
+
+
+
+
+
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.google.android.gms:play-services:9.4.0'
+    compile 'com.google.android.gms:play-services-identity:9.4.0'
+    compile 'com.google.android.gms:play-services-location:9.4.0'
+    compile 'com.google.android.gms:play-services-drive:9.4.0'
+    compile 'com.google.android.gms:play-services-places:9.4.0'
+    compile 'com.google.android.gms:play-services-nearby:9.4.0'
+    compile 'com.google.android.gms:play-services-panorama:9.4.0'
+    compile 'com.android.support:support-v4:24.2.1'
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+    compile 'com.android.support:support-vector-drawable:24.2.1'
+    testCompile 'junit:junit:4.12'
+}
+
+apply plugin: 'com.google.gms.google-services'
