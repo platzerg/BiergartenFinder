@@ -1,27 +1,90 @@
 apply plugin: 'com.android.application'
 
+// Create a variable called keystorePropertiesFile, and initialize it to your
+// keystore.properties file, in the rootProject folder.
+def keystorePropertiesFile = rootProject.file("keystore.properties")
+
+// Initialize a new Properties() object called keystoreProperties.
+def keystoreProperties = new Properties()
+
+// Load your keystore.properties file into the keystoreProperties object.
+keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.2"
     defaultConfig {
         applicationId "com.platzerworld.biergartenfinder"
         minSdkVersion 18
-        targetSdkVersion 21
+        targetSdkVersion 24
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
     }
+
+    productFlavors {
+        dev {
+            minSdkVersion 21
+            targetSdkVersion 22
+        }
+        prod {
+            minSdkVersion 14
+            targetSdkVersion 24
+        }
+    }
+
+    splits {
+
+        // Configures screen density split settings
+        density {
+
+            // Enables density APK splits
+            enable false
+
+            // Specifies a list of screen densities Gradle should not create APK splits for
+            exclude "ldpi", "xxhdpi", "xxxhdpi"
+
+            // Specifies a list of compatible screen size settings for the manifest
+            compatibleScreens 'small', 'normal', 'large', 'xlarge'
+        }
+    }
+
+    signingConfigs {
+
+        release {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }
+
+        debug {
+            storeFile file("/Users/platzerworld/Development/Projects/Android/BiergartenFinder/platzerworld.jks")
+            storePassword "*Platzer9"
+            keyAlias "platzerworldalias"
+            keyPassword "*Platzer9"
+        }
+    }
+
     buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
     }
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile 'com.android.support:multidex:1.0.0'
 
 // Espresso core
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
@@ -72,7 +135,7 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
-    androidTestCompile ('org.robolectric:robolectric:3.0', {
+    androidTestCompile ('org.robolectric:robolectric:3.1.1', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
 
@@ -81,15 +144,7 @@ dependencies {
     })
 
 
-    testCompile "org.robolectric:robolectric:3.0"
-
-
-
-
-
-
-
-
+    testCompile "org.robolectric:robolectric:3.1.1"
 
     compile 'com.android.support:appcompat-v7:24.2.1'
     compile 'com.android.support:design:24.2.1'
