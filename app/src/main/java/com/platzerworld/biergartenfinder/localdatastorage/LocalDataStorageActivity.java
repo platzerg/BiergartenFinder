@@ -21,8 +21,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 
 
+import com.platzerworld.biergartenfinder.BiergartenActivity;
+import com.platzerworld.biergartenfinder.GooglePlayServicesActivity;
 import com.platzerworld.biergartenfinder.R;
 import com.platzerworld.biergartenfinder.localdatastorage.db.ToursDataSource;
 import com.platzerworld.biergartenfinder.localdatastorage.model.Tour;
@@ -30,7 +33,7 @@ import com.platzerworld.biergartenfinder.localdatastorage.xml.ToursPullParser;
 
 import java.util.List;
 
-public class LocalDataStorageActivity extends AppCompatActivity {
+public class LocalDataStorageActivity extends ListActivity {
 
     public static final String LOGTAG="EXPLORECA";
     public static final String USERNAME="pref_username";
@@ -47,7 +50,7 @@ public class LocalDataStorageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_local_data_storage);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        //setSupportActionBar(toolbar);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -57,9 +60,9 @@ public class LocalDataStorageActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-
+        registerForContextMenu(getListView());
 
         settings = PreferenceManager.getDefaultSharedPreferences(this);
 
@@ -83,6 +86,33 @@ public class LocalDataStorageActivity extends AppCompatActivity {
         }
 
         refreshDisplay();
+
+        Button btnAll = (Button)findViewById(R.id.btnAll);
+        btnAll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tours = datasource.findAll();
+                refreshDisplay();
+            }
+        });
+
+        Button btnCheap = (Button)findViewById(R.id.btnCheap);
+        btnCheap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tours = datasource.findFiltered("price <= 300", "price ASC");
+                refreshDisplay();
+            }
+        });
+
+        Button btnFancy = (Button)findViewById(R.id.btnFancy);
+        btnFancy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tours = datasource.findFiltered("price >= 1000", "price DESC");
+                refreshDisplay();
+            }
+        });
 
     }
 
@@ -133,7 +163,7 @@ public class LocalDataStorageActivity extends AppCompatActivity {
     public void refreshDisplay() {
         ArrayAdapter<Tour> adapter = new ArrayAdapter<Tour>(this,
                 android.R.layout.simple_list_item_1, tours);
-        //setListAdapter(adapter);
+        setListAdapter(adapter);
     }
 
     @Override
