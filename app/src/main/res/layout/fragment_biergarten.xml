@@ -37,4 +37,13 @@
         android:layout_toEndOf="@+id/btnGooglePlayServices"
         android:layout_marginStart="13dp" />
 
+    <Button
+        android:text="Local Data Storage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtoutput"
+        android:layout_alignStart="@+id/btnGooglePlayServices"
+        android:layout_marginTop="16dp"
+        android:id="@+id/btnLocalDataStorage" />
+
 </RelativeLayout>

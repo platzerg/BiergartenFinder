@@ -44,6 +44,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/devDebug/jni" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/devDebug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/devDebug/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/dev/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/dev/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/dev/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/dev/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/dev/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/dev/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/dev/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDevDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDevDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDevDebug/assets" type="java-test-resource" />
@@ -52,13 +59,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/testDevDebug/jni" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDevDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testDevDebug/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/r/androidTest/dev/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/dev/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/dev/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/dev/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/dev/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/dev/debug" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/dev/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/dev/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/dev/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/dev/assets" type="java-resource" />
@@ -219,6 +219,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
+      <excludeFolder url="file://$MODULE_DIR$/build/reports" />
       <excludeFolder url="file://$MODULE_DIR$/build/tmp" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 24 Platform (1)" jdkType="Android SDK" />
@@ -301,8 +302,8 @@
     <orderEntry type="library" exported="" scope="TEST" name="maven-settings-2.2.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="asm-commons-5.0.1" level="project" />
     <orderEntry type="library" exported="" name="firebase-database-9.4.0" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="maven-repository-metadata-2.2.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="dexmaker-mockito-1.2" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="maven-repository-metadata-2.2.1" level="project" />
     <orderEntry type="library" exported="" name="firebase-common-9.4.0" level="project" />
     <orderEntry type="library" exported="" name="firebase-storage-9.4.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="mockito-core-1.9.5" level="project" />
@@ -319,8 +320,8 @@
     <orderEntry type="library" exported="" scope="TEST" name="robolectric-3.1.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="asm-tree-5.0.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-cast-framework-9.4.0" level="project" />
-    <orderEntry type="library" exported="" scope="TEST" name="maven-project-2.2.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="javawriter-2.1.1" level="project" />
+    <orderEntry type="library" exported="" scope="TEST" name="maven-project-2.2.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-location-9.4.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="plexus-container-default-1.0-alpha-9-stable-1" level="project" />
     <orderEntry type="library" exported="" name="play-services-ads-lite-9.4.0" level="project" />
@@ -328,6 +329,7 @@
     <orderEntry type="library" exported="" name="play-services-nearby-9.4.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-contextmanager-9.4.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="maven-error-diagnostics-2.2.1" level="project" />
+    <orderEntry type="library" exported="" name="jdom2-2.0.6" level="project" />
     <orderEntry type="library" exported="" name="firebase-auth-common-9.4.0" level="project" />
     <orderEntry type="library" exported="" name="firebase-core-9.4.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="xstream-1.4.8" level="project" />

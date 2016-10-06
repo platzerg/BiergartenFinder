@@ -23,6 +23,7 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.platzerworld.biergartenfinder.localdatastorage.LocalDataStorageActivity;
 import com.platzerworld.biergartenfinder.services.GPSTracker;
 
 public class BiergartenActivity extends AppCompatActivity  {
@@ -54,7 +55,7 @@ public class BiergartenActivity extends AppCompatActivity  {
         }else{
             // can't get location
             // GPS or Network is not enabled
-            // Ask user to enable GPS/network in settings
+            // Ask user to enable GPS/network in pref_localdatastorage
             gps.showSettingsAlert();
         }
 
@@ -145,6 +146,15 @@ public class BiergartenActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(BiergartenActivity.this, GoogleMapsServicesActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btnLocalDataStorage = (Button)findViewById(R.id.btnLocalDataStorage);
+        btnLocalDataStorage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(BiergartenActivity.this, LocalDataStorageActivity.class);
                 startActivity(intent);
             }
         });

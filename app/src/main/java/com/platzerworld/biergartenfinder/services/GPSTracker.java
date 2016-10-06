@@ -154,17 +154,17 @@ public class GPSTracker extends Service implements LocationListener {
     }
 
     /**
-     * Function to show settings alert dialog
+     * Function to show pref_localdatastorage alert dialog
      * On pressing Settings button will lauch Settings Options
      * */
     public void showSettingsAlert(){
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(mContext);
 
         // Setting Dialog Title
-        alertDialog.setTitle("GPS is settings");
+        alertDialog.setTitle("GPS is pref_localdatastorage");
 
         // Setting Dialog Message
-        alertDialog.setMessage("GPS is not enabled. Do you want to go to settings menu?");
+        alertDialog.setMessage("GPS is not enabled. Do you want to go to pref_localdatastorage menu?");
 
         // On pressing Settings button
         alertDialog.setPositiveButton("Settings", new DialogInterface.OnClickListener() {

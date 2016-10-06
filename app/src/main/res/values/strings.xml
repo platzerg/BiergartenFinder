@@ -33,8 +33,13 @@
     <string name="title_activity_settings">Settings</string>
 
     <!-- Strings related to Settings -->
-
-    <!-- Example General settings -->
+    <string name="menu_settings">Settings</string>
+    <string name="menu_all">All</string>
+    <string name="menu_cheap">Cheap</string>
+    <string name="menu_fancy">Fancy</string>
+    <string name="btn_createfile">Create file</string>
+    <string name="btn_readfile">Read file</string>
+    <!-- Example General pref_localdatastorage -->
     <string name="pref_header_general">General</string>
 
     <string name="pref_title_social_recommendations">Enable social recommendations</string>
@@ -57,7 +62,7 @@
         <item>-1</item>
     </string-array>
 
-    <!-- Example settings for Data & Sync -->
+    <!-- Example pref_localdatastorage for Data & Sync -->
     <string name="pref_header_data_sync">Data &amp; sync</string>
 
     <string name="pref_title_sync_frequency">Sync frequency</string>
@@ -94,7 +99,7 @@
 
     <string name="pref_title_system_sync_settings">System sync settings</string>
 
-    <!-- Example settings for Notifications -->
+    <!-- Example pref_localdatastorage for Notifications -->
     <string name="pref_header_notifications">Notifications</string>
 
     <string name="pref_title_new_message_notifications">New message notifications</string>
@@ -128,4 +133,6 @@
     <string name="title_activity_google_maps_main">GoogleMapsMainActivity</string>
     <string name="title_activity_google_maps_services">GoogleMapsServicesActivity</string>
     <string name="title_activity_maps_basic">MapsBasicActivity</string>
+    <string name="title_activity_local_data_storage">LocalDataStorageActivity</string>
+
 </resources>
