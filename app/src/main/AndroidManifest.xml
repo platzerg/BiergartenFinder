@@ -28,6 +28,9 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
 
+    <!-- MQTT -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -53,6 +56,9 @@
                 <category android:name="com.platzerworld.biergartenfinder" />
             </intent-filter>
         </receiver>
+
+        <service android:name="org.eclipse.paho.android.service.MqttService" >
+        </service>
 
         <!--
              the GcmListenerService enables various messaging features and provides
@@ -320,6 +326,15 @@
         <activity
             android:name=".localdatastorage.LocalDataStorageActivity"
             android:label="@string/title_activity_local_data_storage"
+            android:parentActivityName=".BiergartenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
+        </activity>
+        <activity
+            android:name=".MQTTActivity"
+            android:label="@string/title_activity_mqtt"
             android:parentActivityName=".BiergartenActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data

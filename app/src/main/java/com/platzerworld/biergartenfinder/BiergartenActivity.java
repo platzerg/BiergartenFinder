@@ -159,6 +159,15 @@ public class BiergartenActivity extends AppCompatActivity  {
             }
         });
 
+        Button btnMQTT = (Button)findViewById(R.id.btnMQTT);
+        btnMQTT.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(BiergartenActivity.this, MQTTActivity.class);
+                startActivity(intent);
+            }
+        });
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

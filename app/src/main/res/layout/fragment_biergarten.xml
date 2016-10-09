@@ -46,4 +46,12 @@
         android:layout_marginTop="16dp"
         android:id="@+id/btnLocalDataStorage" />
 
+    <Button
+        android:text="MQTT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnLocalDataStorage"
+        android:layout_alignStart="@+id/btnGoogleMaps"
+        android:id="@+id/btnMQTT" />
+
 </RelativeLayout>

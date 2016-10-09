@@ -134,5 +134,6 @@
     <string name="title_activity_google_maps_services">GoogleMapsServicesActivity</string>
     <string name="title_activity_maps_basic">MapsBasicActivity</string>
     <string name="title_activity_local_data_storage">LocalDataStorageActivity</string>
+    <string name="title_activity_mqtt">MQTTActivity</string>
 
 </resources>
