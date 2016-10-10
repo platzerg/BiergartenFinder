@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "943186999797",
+    "project_id": "platzerworld"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943186999797:android:0c18d068951de4d7",
+        "android_client_info": {
+          "package_name": "de.platzerworld.vacation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943186999797-05la00rbc4na247ti3l8jp5681ng5qma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw5PxMAaIZecZs3L4vPwPt4-bAfQFnHYQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943186999797:android:58803875d6efac32",
+        "android_client_info": {
+          "package_name": "com.platzerworld.biergartenfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "943186999797-p5q8fmeold4r6k9idphc16kpv4453svn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.platzerworld.biergartenfinder",
+            "certificate_hash": "C4A669137FFFC3742737A1905DA0FF5B44CE5076"
+          }
+        },
+        {
+          "client_id": "943186999797-05la00rbc4na247ti3l8jp5681ng5qma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw5PxMAaIZecZs3L4vPwPt4-bAfQFnHYQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
