@@ -142,5 +142,6 @@
     <string name="start">Start</string>
     <string name="stop">Stop</string>
     <string name="title_activity_ojbect_properties">OjbectPropertiesActivity</string>
+    <string name="title_activity_transition">TransitionActivity</string>
 
 </resources>

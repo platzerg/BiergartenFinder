@@ -361,6 +361,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.platzerworld.biergartenfinder.AnimationActivity" />
         </activity>
+        <activity
+            android:name=".animation.TransitionActivity"
+            android:label="@string/title_activity_transition"
+            android:parentActivityName=".AnimationActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.AnimationActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -547,7 +547,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="e93550180ecc488f9d0f4c47feade9f1e47d7eb9">
+        sha1="1563a37d453086b45e18e2f16ae3d3b2af3f9d52">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run-bootstrap_5667fc885fd68d39ece60f49e98b329edd87c679/classes.dex" />
     </item>
     <item
