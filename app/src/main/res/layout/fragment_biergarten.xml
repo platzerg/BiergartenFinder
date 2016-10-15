@@ -54,4 +54,13 @@
         android:layout_alignStart="@+id/btnGoogleMaps"
         android:id="@+id/btnMQTT" />
 
+    <Button
+        android:text="Animation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLocalDataStorage"
+        android:layout_alignStart="@+id/btnLocalDataStorage"
+        android:layout_marginTop="21dp"
+        android:id="@+id/btnAnimation" />
+
 </RelativeLayout>

@@ -3,48 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_ddbe31d5d124c5187d2ceff2d25865147e4fc80b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.4.0_ec3e68eb61d442195145bd37614e877762151f3f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="d49118ba67a101c4895f0581f17142cba85b330b">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.4.0_f41f346e409886e9d5c8256ff304e9924c1e2a4c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.4.0_8f545641073424850b7324a13aaa0882d1e35f36/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-location-9.4.0_d116a9c32a2e70e5cf3afd6ffe1531d8e445d90a/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -57,57 +21,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.4.0_d6ddd51efd99a869e49ffe0b8d490e2559f72c86/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/Development/google/android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/support-annotations-24.2.1_5f46d6df3b42fac46bfcf82e507b8f8dd1cb4405/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="4348dd26d83b56c2058b768222c3271bce911724">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.4.0_8ebd87c6afe923071e07bab61f16719018d30e59/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="d5c731fc64c03dfe04d51134955b483551c35849">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_5eb0e449cfd1a71cad9c59247115c5c1d027b0f2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-multidex-1.0.0_961ce8cba1cc3cc9f9316cd9235c8a9b61d4db15/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.4.0_482217ecf6ca49f71e0d8b1027e1cff09080f621/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -124,7 +43,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="942522e95b0d514882f380eb7e957ad841121ab1">
+        sha1="055d6a32548751bbf8f33301445118667059e041">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run_3d4f4d01c5854f817e45a62a5191945fdec8dca5/classes.dex" />
     </item>
     <item
@@ -138,30 +57,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.4.0_ae3714d3da718c3b46640fa0a067b7f0052d3a77/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-design-24.2.1_24254bae8a25a3f43c64948a09456d996c907987/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-crash-9.4.0_8ec09a795c2f1668eda2e351c0c1af870514c449/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -180,15 +81,6 @@
         revision="24.0.2"
         sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.4.0_7547bd02643ceffe04ff31bfac977c98ff97f151/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.4.0_b90cf331ff69931856d1907486cefe4f5af28eeb/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -219,48 +111,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.4.0_23c83735e1f0f3df2cb25bb3c05e80e6c4610d6d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="a432629397351d3ec7f27a23d258b229b81af08f">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-cast-9.4.0_06c66c3bff24767fccb1be73df3493e17623c1b4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.4.0_c295497f73d788a182b029eb652db554582de2a8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/internal_impl-24.2.1_37aaf5280bcd379cb64b929acdb2cf85d4a59799/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_aca9db7a7fe0e7bc16ebf0d298b44d98634eb2e5/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -291,39 +147,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.4.0_b8dde2ed49f9b4a00ac7b299a2702d5612423c60/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-auth-9.4.0_c769a1ec3c20da05b78ce48c86d2265e0d1aad9f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="e35002351f2d415093a9b564652d4b56be6a0593">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-places-9.4.0_f924d8b86807236c4fd53ddd7a3aa32443fafce5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.4.0_e89f3a0ecbc2b560518a1f76a6564d841e7f33fa/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -345,15 +174,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.4.0_beb9516750c80c246d50ae2925e1227f11cf4df0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -372,30 +192,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.4.0_3dfe97ae603e2052c7d14b16e602c0135a823fe9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-base-9.4.0_f48af686d58224a9cfa1e8476fd5459934f9d0ab/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/org.eclipse.paho/org.eclipse.paho.client.mqttv3/1.1.0/89d827ffa47c241f2627421ef1d6c7a8c207a341/org.eclipse.paho.client.mqttv3-1.1.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="89d827ffa47c241f2627421ef1d6c7a8c207a341">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/org.eclipse.paho.client.mqttv3-1.1.0_28993590c6420071ad34e4047e453e1834ca3d81/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -414,15 +216,6 @@
         revision="24.0.2"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/internal_impl-24.2.1_56a8a01ba378293f5b01619a94d3aebb29511c96/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.4.0_74ac24540cebfa7cbc6df0c25cb2c6188979de7b/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -480,15 +273,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.4.0_ddfee6e3c637675f35c8bedf5d3aeb8962cf440d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -534,42 +318,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.4.0_d6d6eb04be39a494492376f9bc5d2708498a36d4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/org.jdom/jdom2/2.0.6/6f14738ec2e9dd0011e343717fa624a10f8aab64/jdom2-2.0.6.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6f14738ec2e9dd0011e343717fa624a10f8aab64">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/jdom2-2.0.6_0f24537dfa23b2b7d2fbdd83a89645a4dc441eeb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/incremental-classes/dev/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="cd64db27a5abf8ba465ba52d5ba17c7a856048da">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run-bootstrap_5667fc885fd68d39ece60f49e98b329edd87c679/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.4.0_a396a52abfaa3ae55295678ea4791ba85027fb03/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -597,15 +345,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_0e592ca37c24087a1dff994d9e01b8a29c8e5aad/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -621,15 +360,6 @@
         revision="24.0.2"
         sha1="e454c414a069241ee08444d187f2dd3a702596b5">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.4.0_2c67c4fbb1bdc6a3d34116d04370dcc1158402fa/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.4.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8ce5e7a4a146dddd1d9e66b09c714a6c149916d8">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.4.0_cf01b0c03ced61417aeb34de63056101135e92a7/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -657,6 +387,276 @@
         revision="24.0.2"
         sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-storage-9.4.0_2e53e35bdd8830450b1dd8eea9fdd526857d2ff7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_ddbe31d5d124c5187d2ceff2d25865147e4fc80b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.4.0_ec3e68eb61d442195145bd37614e877762151f3f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.4.0_8f545641073424850b7324a13aaa0882d1e35f36/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-location-9.4.0_d116a9c32a2e70e5cf3afd6ffe1531d8e445d90a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.4.0_d6ddd51efd99a869e49ffe0b8d490e2559f72c86/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/google/android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/support-annotations-24.2.1_5f46d6df3b42fac46bfcf82e507b8f8dd1cb4405/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.4.0_8ebd87c6afe923071e07bab61f16719018d30e59/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-multidex-1.0.0_961ce8cba1cc3cc9f9316cd9235c8a9b61d4db15/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.4.0_482217ecf6ca49f71e0d8b1027e1cff09080f621/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.4.0_ae3714d3da718c3b46640fa0a067b7f0052d3a77/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-crash-9.4.0_8ec09a795c2f1668eda2e351c0c1af870514c449/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.4.0_b90cf331ff69931856d1907486cefe4f5af28eeb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.4.0_23c83735e1f0f3df2cb25bb3c05e80e6c4610d6d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a432629397351d3ec7f27a23d258b229b81af08f">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-cast-9.4.0_06c66c3bff24767fccb1be73df3493e17623c1b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/internal_impl-24.2.1_37aaf5280bcd379cb64b929acdb2cf85d4a59799/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_aca9db7a7fe0e7bc16ebf0d298b44d98634eb2e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.4.0_b8dde2ed49f9b4a00ac7b299a2702d5612423c60/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-auth-9.4.0_c769a1ec3c20da05b78ce48c86d2265e0d1aad9f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.4.0_e89f3a0ecbc2b560518a1f76a6564d841e7f33fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.4.0_beb9516750c80c246d50ae2925e1227f11cf4df0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.4.0_3dfe97ae603e2052c7d14b16e602c0135a823fe9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/org.eclipse.paho/org.eclipse.paho.client.mqttv3/1.1.0/89d827ffa47c241f2627421ef1d6c7a8c207a341/org.eclipse.paho.client.mqttv3-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="89d827ffa47c241f2627421ef1d6c7a8c207a341">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/org.eclipse.paho.client.mqttv3-1.1.0_28993590c6420071ad34e4047e453e1834ca3d81/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.4.0_74ac24540cebfa7cbc6df0c25cb2c6188979de7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.4.0_ddfee6e3c637675f35c8bedf5d3aeb8962cf440d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.4.0_d6d6eb04be39a494492376f9bc5d2708498a36d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/org.jdom/jdom2/2.0.6/6f14738ec2e9dd0011e343717fa624a10f8aab64/jdom2-2.0.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6f14738ec2e9dd0011e343717fa624a10f8aab64">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/jdom2-2.0.6_0f24537dfa23b2b7d2fbdd83a89645a4dc441eeb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/incremental-classes/dev/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="27790065e172b515618b2f46386b97cf3fba1c25">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run-bootstrap_5667fc885fd68d39ece60f49e98b329edd87c679/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.4.0_a396a52abfaa3ae55295678ea4791ba85027fb03/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_0e592ca37c24087a1dff994d9e01b8a29c8e5aad/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8ce5e7a4a146dddd1d9e66b09c714a6c149916d8">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.4.0_cf01b0c03ced61417aeb34de63056101135e92a7/classes.dex" />
     </item>
 
 </items>

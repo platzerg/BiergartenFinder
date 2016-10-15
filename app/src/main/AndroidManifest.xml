@@ -11,7 +11,6 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
-
     <permission
         android:name="com.platzerworld.biergartenfinder.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
@@ -33,7 +32,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <!-- Test -->
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
 
     <application
         android:allowBackup="true"
@@ -61,8 +60,7 @@
             </intent-filter>
         </receiver>
 
-        <service android:name="org.eclipse.paho.android.service.MqttService" >
-        </service>
+        <service android:name="org.eclipse.paho.android.service.MqttService"></service>
 
         <!--
              the GcmListenerService enables various messaging features and provides
@@ -101,8 +99,12 @@
              sign the APK for publishing.
              You can define the keys for the debug and release targets in src/debug/ and src/release/.
         -->
-        <meta-data android:name="com.google.android.geo.API_KEY" android:value="@string/google_maps_key" />
-        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
 
         <activity
             android:name=".BiergartenActivity"
@@ -305,7 +307,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
         </activity>
-
         <activity
             android:name=".localdatastorage.LocalDataStorageActivity"
             android:label="@string/title_activity_local_data_storage"
@@ -318,6 +319,15 @@
         <activity
             android:name=".MQTTActivity"
             android:label="@string/title_activity_mqtt"
+            android:parentActivityName=".BiergartenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
+        </activity>
+        <activity
+            android:name=".AnimationActivity"
+            android:label="@string/title_activity_animation"
             android:parentActivityName=".BiergartenActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data

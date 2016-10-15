@@ -168,6 +168,15 @@ public class BiergartenActivity extends AppCompatActivity  {
             }
         });
 
+        Button btnAnimation = (Button)findViewById(R.id.btnAnimation);
+        btnAnimation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(BiergartenActivity.this, AnimationActivity.class);
+                startActivity(intent);
+            }
+        });
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
