@@ -13,6 +13,7 @@ import com.platzerworld.biergartenfinder.animation.FramesAndImagesActivity;
 import com.platzerworld.biergartenfinder.animation.OjbectPropertiesActivity;
 import com.platzerworld.biergartenfinder.animation.TransitionActivity;
 import com.platzerworld.biergartenfinder.animation.ViewAnimationActivity;
+import com.platzerworld.biergartenfinder.animation.activitiesandslides.ActivityAndSlidesActivity;
 
 public class AnimationActivity extends AppCompatActivity {
 
@@ -53,6 +54,15 @@ public class AnimationActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(AnimationActivity.this, TransitionActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btnActivitiesAndSlides = (Button)findViewById(R.id.btnActivitiesAndSlides);
+        btnActivitiesAndSlides.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AnimationActivity.this, ActivityAndSlidesActivity.class);
                 startActivity(intent);
             }
         });

@@ -370,6 +370,33 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.platzerworld.biergartenfinder.AnimationActivity" />
         </activity>
+        <activity
+            android:name=".animation.activitiesandslides.ActivityAndSlidesActivity"
+            android:label="@string/title_activity_and_slides"
+            android:parentActivityName=".AnimationActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.AnimationActivity" />
+        </activity>
+        <activity
+            android:name=".animation.activitiesandslides.AboutFragment"
+            android:label="@string/title_activity_about_fragment"
+            android:parentActivityName=".animation.activitiesandslides.ActivityAndSlidesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.animation.activitiesandslides.ActivityAndSlidesActivity" />
+        </activity>
+        <activity
+            android:name=".animation.activitiesandslides.ActivityAndSlidesActivityDetailActivity"
+            android:label="@string/title_activity_and_slides_activity_detail"
+            android:parentActivityName=".animation.activitiesandslides.ActivityAndSlidesActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.animation.activitiesandslides.ActivityAndSlidesActivity" />
+        </activity>
     </application>
 
 </manifest>

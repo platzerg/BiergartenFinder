@@ -83,7 +83,6 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:multidex:1.0.0'
     // Espresso core
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
@@ -126,28 +125,29 @@ dependencies {
     androidTestCompile('org.mockito:mockito-core:1.9.5', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    testCompile 'org.robolectric:robolectric:3.1.1'
-    compile 'com.android.support:appcompat-v7:24.2.1'
-    compile 'com.android.support:design:24.2.1'
-    compile 'com.google.android.gms:play-services:9.4.0'
-    compile 'com.google.android.gms:play-services-identity:9.4.0'
-    compile 'com.google.android.gms:play-services-location:9.4.0'
-    compile 'com.google.android.gms:play-services-drive:9.4.0'
-    compile 'com.google.android.gms:play-services-places:9.4.0'
-    compile 'com.google.android.gms:play-services-nearby:9.4.0'
-    compile 'com.google.android.gms:play-services-panorama:9.4.0'
-    compile 'com.android.support:support-v4:24.2.1'
-    compile 'com.android.support:recyclerview-v7:24.2.1'
-    compile 'com.android.support:support-vector-drawable:24.2.1'
-    testCompile 'junit:junit:4.12'
-    compile 'org.jdom:jdom2:2.0.6'
 
     // MQTT
     compile('org.eclipse.paho:org.eclipse.paho.android.service:1.0.2') {
         exclude module: 'support-v4'
     }
 
+    compile 'com.android.support:multidex:1.0.0'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.google.android.gms:play-services:9.6.1'
+    compile 'com.google.android.gms:play-services-identity:9.6.1'
+    compile 'com.google.android.gms:play-services-location:9.6.1'
+    compile 'com.google.android.gms:play-services-drive:9.6.1'
+    compile 'com.google.android.gms:play-services-places:9.6.1'
+    compile 'com.google.android.gms:play-services-nearby:9.6.1'
+    compile 'com.google.android.gms:play-services-panorama:9.6.1'
+    compile 'com.android.support:support-v4:24.2.1'
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+    compile 'com.android.support:support-vector-drawable:24.2.1'
+    compile 'org.jdom:jdom2:2.0.6'
     compile 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0'
+    testCompile 'org.robolectric:robolectric:3.1.1'
+    testCompile 'junit:junit:4.12'
 }
 
 apply plugin: 'com.google.gms.google-services'
