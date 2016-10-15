@@ -134,5 +134,13 @@
     <string name="title_activity_local_data_storage">LocalDataStorageActivity</string>
     <string name="title_activity_mqtt">MQTTActivity</string>
     <string name="title_activity_animation">AnimationActivity</string>
+    <string name="title_activity_view_animation">ViewAnimationActivity</string>
+
+    <string name="animate">Animate</string>
+    <string name="title_activity_frames_and_images">FramesAndImagesActivity</string>
+
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="title_activity_ojbect_properties">OjbectPropertiesActivity</string>
 
 </resources>

@@ -60,7 +60,7 @@
             </intent-filter>
         </receiver>
 
-        <service android:name="org.eclipse.paho.android.service.MqttService"></service>
+        <service android:name="org.eclipse.paho.android.service.MqttService" />
 
         <!--
              the GcmListenerService enables various messaging features and provides
@@ -333,6 +333,33 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
+        </activity>
+        <activity
+            android:name=".animation.ViewAnimationActivity"
+            android:label="@string/title_activity_view_animation"
+            android:parentActivityName=".AnimationActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.AnimationActivity" />
+        </activity>
+        <activity
+            android:name=".animation.FramesAndImagesActivity"
+            android:label="@string/title_activity_frames_and_images"
+            android:parentActivityName=".AnimationActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.AnimationActivity" />
+        </activity>
+        <activity
+            android:name=".animation.OjbectPropertiesActivity"
+            android:label="@string/title_activity_ojbect_properties"
+            android:parentActivityName=".AnimationActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.AnimationActivity" />
         </activity>
     </application>
 
