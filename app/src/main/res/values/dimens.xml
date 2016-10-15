@@ -18,4 +18,7 @@
     <dimen name="logo_side">150dp</dimen>
     <dimen name="headline_size">24sp</dimen>
     <dimen name="content_size">14sp</dimen>
+
+    <dimen name="status_text_size">20sp</dimen>
+    <dimen name="pin_size">40dp</dimen>
 </resources>

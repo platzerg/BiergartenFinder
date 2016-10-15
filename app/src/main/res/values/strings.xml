@@ -160,5 +160,13 @@
     <string name="title_activity_and_slides_activity_detail">
         ActivityAndSlidesActivityDetailActivity
     </string>
+    <string name="title_activity_game_app">GameAppActivity</string>
+
+    <string name="level_label">Level:</string>
+    <string name="score_label">Score:</string>
+    <string name="max_number">99</string>
+    <string name="play_game">Play game</string>
+    <string name="popping_pin">Popping Pin</string>
+
 
 </resources>

@@ -63,4 +63,13 @@
         android:layout_marginTop="21dp"
         android:id="@+id/btnAnimation" />
 
+    <Button
+        android:text="Game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAnimation"
+        android:layout_alignStart="@+id/btnAnimation"
+        android:layout_marginTop="13dp"
+        android:id="@+id/btnGame" />
+
 </RelativeLayout>
