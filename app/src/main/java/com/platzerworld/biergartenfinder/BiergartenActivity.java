@@ -187,6 +187,15 @@ public class BiergartenActivity extends AppCompatActivity  {
             }
         });
 
+        Button btnRestServices = (Button)findViewById(R.id.btnRestServices);
+        btnRestServices.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(BiergartenActivity.this, RestActivity.class);
+                startActivity(intent);
+            }
+        });
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 

@@ -406,6 +406,60 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
         </activity>
+        <activity
+            android:name=".RestActivity"
+            android:label="@string/title_activity_rest"
+            android:parentActivityName=".BiergartenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
+        </activity>
+        <activity
+            android:name=".rest.HttpClientActivity"
+            android:label="@string/title_activity_http_client"
+            android:parentActivityName=".RestActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.RestActivity" />
+        </activity>
+        <activity
+            android:name=".rest.URLConnectionActivity"
+            android:label="@string/title_activity_urlconnection"
+            android:parentActivityName=".RestActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.RestActivity" />
+        </activity>
+        <activity
+            android:name=".rest.ParseXMLActivity"
+            android:label="@string/title_activity_parse_xml"
+            android:parentActivityName=".RestActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.RestActivity" />
+        </activity>
+        <activity
+            android:name=".rest.ParseJSONActivity"
+            android:label="@string/title_activity_parse_json"
+            android:parentActivityName=".RestActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.RestActivity" />
+        </activity>
+        <activity
+            android:name=".rest.AuthenticatActivity"
+            android:label="@string/title_activity_authenticat"
+            android:parentActivityName=".RestActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.RestActivity" />
+        </activity>
     </application>
 
 </manifest>

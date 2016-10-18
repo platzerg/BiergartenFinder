@@ -167,6 +167,12 @@
     <string name="max_number">99</string>
     <string name="play_game">Play game</string>
     <string name="popping_pin">Popping Pin</string>
+    <string name="title_activity_rest">RestActivity</string>
+    <string name="title_activity_http_client">HttpClientActivity</string>
+    <string name="title_activity_urlconnection">URLConnectionActivity</string>
+    <string name="title_activity_parse_xml">ParseXMLActivity</string>
+    <string name="title_activity_parse_json">ParseJSONActivity</string>
+    <string name="title_activity_authenticat">AuthenticatActivity</string>
 
 
 </resources>
