@@ -3,6 +3,15 @@
 
     <item
         is-multidex="true"
+        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/gson-2.7_289fccaa427c8fdef83d697051d1ef8dc7d2d536/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -27,15 +36,6 @@
         revision="24.0.2"
         sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.6.1_379ba4cd8c43931330d5f3ea73a77183c34351a8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/gson-2.7_289fccaa427c8fdef83d697051d1ef8dc7d2d536/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -147,21 +147,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.6.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="159494eb362396d073d8c922b77e40c0da5fc5bc">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.6.1_b8e4a52b583b47fc32d3cd689905df16da6f1aef/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="cc39b4bcc9e7062891db90d5a752fa9e4986f447">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.6.1_4c5f952a2640f7fb0ab6ca51d772dedc682535e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.6.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="159494eb362396d073d8c922b77e40c0da5fc5bc">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.6.1_b8e4a52b583b47fc32d3cd689905df16da6f1aef/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -241,7 +241,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="b1db17bbfff46c561ae68ffb3d1b495f9196de93">
+        sha1="3a2213ba590781dd1f2332a64f89a40de191404a">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run_3d4f4d01c5854f817e45a62a5191945fdec8dca5/classes.dex" />
     </item>
     <item
@@ -435,15 +435,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_4f1ebcff6713db0a0b871e942d0c5e16979d58b5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -459,6 +450,15 @@
         revision="24.0.2"
         sha1="90be14317e3f26d18438e8dbf8544500d1dfe07f">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-awareness-9.6.1_c1877b1a1657ce99c95f8c247de6a869773e67e1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_4f1ebcff6713db0a0b871e942d0c5e16979d58b5/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -610,7 +610,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="1c2757a992dbe9f8172efe98dc53ba7dbf052a57">
+        sha1="73844fc1f43e692484800fe5d7b4f4554fff6320">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run-bootstrap_5667fc885fd68d39ece60f49e98b329edd87c679/classes.dex" />
     </item>
     <item

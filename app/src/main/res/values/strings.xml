@@ -173,6 +173,7 @@
     <string name="title_activity_parse_xml">ParseXMLActivity</string>
     <string name="title_activity_parse_json">ParseJSONActivity</string>
     <string name="title_activity_authenticat">AuthenticatActivity</string>
+    <string name="title_activity_binary">BinaryActivity</string>
 
 
 </resources>

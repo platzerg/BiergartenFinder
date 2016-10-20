@@ -14,6 +14,7 @@ import com.platzerworld.biergartenfinder.rest.AuthenticatActivity;
 import com.platzerworld.biergartenfinder.rest.ParseJSONActivity;
 import com.platzerworld.biergartenfinder.rest.ParseXMLActivity;
 import com.platzerworld.biergartenfinder.rest.URLConnectionActivity;
+import com.platzerworld.biergartenfinder.rest.binary.BinaryActivity;
 
 public class RestActivity extends AppCompatActivity {
 
@@ -66,6 +67,15 @@ public class RestActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(RestActivity.this, AuthenticatActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btnBinary = (Button)findViewById(R.id.btnBinary);
+        btnBinary.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(RestActivity.this, BinaryActivity.class);
                 startActivity(intent);
             }
         });

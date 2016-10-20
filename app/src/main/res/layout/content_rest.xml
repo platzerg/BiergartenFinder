@@ -58,4 +58,13 @@
         android:layout_alignStart="@+id/btnParseJSON"
         android:layout_marginTop="10dp"
         android:id="@+id/btnAuthenticate" />
+
+    <Button
+        android:text="Binary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAuthenticate"
+        android:layout_alignStart="@+id/btnAuthenticate"
+        android:layout_marginTop="7dp"
+        android:id="@+id/btnBinary" />
 </RelativeLayout>
