@@ -177,6 +177,7 @@
     <string name="title_activity_post_param">PostParamActivity</string>
     <string name="title_activity_ok_http">OkHTTPActivity</string>
     <string name="title_activity_retrofit">RetrofitActivity</string>
+    <string name="title_activity_volley">VolleyActivity</string>
 
 
 </resources>

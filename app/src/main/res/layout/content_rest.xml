@@ -94,4 +94,13 @@
         android:layout_alignEnd="@+id/btnOkHttp"
         android:layout_marginTop="8dp"
         android:id="@+id/btnRetrofit" />
+
+    <Button
+        android:text="Volley"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnParseXML"
+        android:layout_alignStart="@+id/btnRetrofit"
+        android:layout_marginTop="26dp"
+        android:id="@+id/btnVolley" />
 </RelativeLayout>

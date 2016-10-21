@@ -496,6 +496,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.platzerworld.biergartenfinder.RestActivity" />
         </activity>
+        <activity
+            android:name=".rest.volley.VolleyActivity"
+            android:label="@string/title_activity_volley"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

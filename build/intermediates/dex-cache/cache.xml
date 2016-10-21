@@ -606,6 +606,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/incremental-classes/dev/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b3e5d33a54522aa220dde56eedc1cbc08c2d52a1">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run-bootstrap_5667fc885fd68d39ece60f49e98b329edd87c679/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
         jumboMode="true"
         optimize="true"
@@ -621,15 +630,6 @@
         revision="24.0.2"
         sha1="6f14738ec2e9dd0011e343717fa624a10f8aab64">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/jdom2-2.0.6_0f24537dfa23b2b7d2fbdd83a89645a4dc441eeb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/incremental-classes/dev/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="25371d197d22f0061fc478b95a396522a93ec99f">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run-bootstrap_5667fc885fd68d39ece60f49e98b329edd87c679/classes.dex" />
     </item>
     <item
         is-multidex="true"
