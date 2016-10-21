@@ -1,3 +1,8 @@
+// https://inthecheesefactory.com/blog/how-to-setup-private-maven-repository/en
+
+//service artifactory start
+// ./gradlew assembleRelease artifactoryPublish
+
 apply plugin: 'com.jfrog.artifactory'
 apply plugin: 'maven-publish'
 
