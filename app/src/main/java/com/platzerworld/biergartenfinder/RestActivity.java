@@ -17,6 +17,7 @@ import com.platzerworld.biergartenfinder.rest.URLConnectionActivity;
 import com.platzerworld.biergartenfinder.rest.binary.BinaryActivity;
 import com.platzerworld.biergartenfinder.rest.okhttp.OkHTTPActivity;
 import com.platzerworld.biergartenfinder.rest.postparam.PostParamActivity;
+import com.platzerworld.biergartenfinder.rest.retrofit.RetrofitActivity;
 
 import okhttp3.OkHttpClient;
 
@@ -98,6 +99,15 @@ public class RestActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(RestActivity.this, OkHTTPActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btnRetrofit = (Button)findViewById(R.id.btnRetrofit);
+        btnRetrofit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(RestActivity.this, RetrofitActivity.class);
                 startActivity(intent);
             }
         });

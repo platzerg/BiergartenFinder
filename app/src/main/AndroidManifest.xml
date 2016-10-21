@@ -487,6 +487,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.platzerworld.biergartenfinder.RestActivity" />
         </activity>
+        <activity
+            android:name=".rest.retrofit.RetrofitActivity"
+            android:label="@string/title_activity_retrofit"
+            android:parentActivityName=".RestActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.RestActivity" />
+        </activity>
     </application>
 
 </manifest>
