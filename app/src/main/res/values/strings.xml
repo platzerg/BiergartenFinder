@@ -175,6 +175,7 @@
     <string name="title_activity_authenticat">AuthenticatActivity</string>
     <string name="title_activity_binary">BinaryActivity</string>
     <string name="title_activity_post_param">PostParamActivity</string>
+    <string name="title_activity_ok_http">OkHTTPActivity</string>
 
 
 </resources>

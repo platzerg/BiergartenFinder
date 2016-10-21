@@ -241,7 +241,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="3a2213ba590781dd1f2332a64f89a40de191404a">
+        sha1="58954a2d2c5098e1c4099e63e543b87f06e29bb4">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run_3d4f4d01c5854f817e45a62a5191945fdec8dca5/classes.dex" />
     </item>
     <item
@@ -417,21 +417,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/internal_impl-24.2.1_56a8a01ba378293f5b01619a94d3aebb29511c96/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.6.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-database-9.6.1_57dfae7aaad282935c828eb030310e1bcfa46166/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/internal_impl-24.2.1_56a8a01ba378293f5b01619a94d3aebb29511c96/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -606,21 +606,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/incremental-classes/dev/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="ddf5da76b4564dbc07a92aeced21651b466a11d1">
-        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run-bootstrap_5667fc885fd68d39ece60f49e98b329edd87c679/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/platzerworld/.gradle/caches/modules-2/files-2.1/org.jdom/jdom2/2.0.6/6f14738ec2e9dd0011e343717fa624a10f8aab64/jdom2-2.0.6.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
         sha1="6f14738ec2e9dd0011e343717fa624a10f8aab64">
         <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/jdom2-2.0.6_0f24537dfa23b2b7d2fbdd83a89645a4dc441eeb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/incremental-classes/dev/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="dde06ccfc7310131918c97917d912c2ec6429c93">
+        <dex dex="/Users/platzerworld/Development/Projects/Android/BiergartenFinder/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run-bootstrap_5667fc885fd68d39ece60f49e98b329edd87c679/classes.dex" />
     </item>
     <item
         is-multidex="true"

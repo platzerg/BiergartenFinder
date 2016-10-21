@@ -478,6 +478,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.platzerworld.biergartenfinder.RestActivity" />
         </activity>
+        <activity
+            android:name=".rest.okhttp.OkHTTPActivity"
+            android:label="@string/title_activity_ok_http"
+            android:parentActivityName=".RestActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.RestActivity" />
+        </activity>
     </application>
 
 </manifest>

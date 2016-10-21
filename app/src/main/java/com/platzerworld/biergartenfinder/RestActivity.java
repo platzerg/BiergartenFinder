@@ -15,7 +15,10 @@ import com.platzerworld.biergartenfinder.rest.ParseJSONActivity;
 import com.platzerworld.biergartenfinder.rest.ParseXMLActivity;
 import com.platzerworld.biergartenfinder.rest.URLConnectionActivity;
 import com.platzerworld.biergartenfinder.rest.binary.BinaryActivity;
+import com.platzerworld.biergartenfinder.rest.okhttp.OkHTTPActivity;
 import com.platzerworld.biergartenfinder.rest.postparam.PostParamActivity;
+
+import okhttp3.OkHttpClient;
 
 public class RestActivity extends AppCompatActivity {
 
@@ -86,6 +89,15 @@ public class RestActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(RestActivity.this, PostParamActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btnOkHttp = (Button)findViewById(R.id.btnOkHttp);
+        btnOkHttp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(RestActivity.this, OkHTTPActivity.class);
                 startActivity(intent);
             }
         });
