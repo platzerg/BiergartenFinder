@@ -179,5 +179,8 @@
     <string name="title_activity_retrofit">RetrofitActivity</string>
     <string name="title_activity_volley">VolleyActivity</string>
 
+    <string name="cannot">Cannot</string>
+    <string name="album_name">Urlaub 2016</string>
+
 
 </resources>

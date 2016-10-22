@@ -23,6 +23,7 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.platzerworld.biergartenfinder.camera.CameraActivity;
 import com.platzerworld.biergartenfinder.game.GameAppActivity;
 import com.platzerworld.biergartenfinder.localdatastorage.LocalDataStorageActivity;
 import com.platzerworld.biergartenfinder.services.GPSTracker;
@@ -192,6 +193,15 @@ public class BiergartenActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(BiergartenActivity.this, RestActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btnCamera = (Button)findViewById(R.id.btnCamera);
+        btnCamera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(BiergartenActivity.this, CameraActivity.class);
                 startActivity(intent);
             }
         });

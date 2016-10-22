@@ -81,4 +81,13 @@
         android:layout_marginTop="13dp"
         android:id="@+id/btnRestServices" />
 
+    <Button
+        android:text="Camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRestServices"
+        android:layout_alignStart="@+id/btnRestServices"
+        android:layout_marginTop="47dp"
+        android:id="@+id/btnCamera" />
+
 </RelativeLayout>
