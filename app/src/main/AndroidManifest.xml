@@ -531,6 +531,24 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.platzerworld.biergartenfinder.camera.CameraActivity" />
         </activity>
+        <activity
+            android:name=".network.SettingsActivity"
+            android:label="SettingsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MANAGE_NETWORK_USAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".network.NetworkActivity"
+            android:label="@string/title_activity_network"
+            android:parentActivityName=".BiergartenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.platzerworld.biergartenfinder.BiergartenActivity" />
+        </activity>
     </application>
 
 </manifest>

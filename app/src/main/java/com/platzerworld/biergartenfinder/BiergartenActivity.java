@@ -26,6 +26,7 @@ import android.widget.TextView;
 import com.platzerworld.biergartenfinder.camera.CameraActivity;
 import com.platzerworld.biergartenfinder.game.GameAppActivity;
 import com.platzerworld.biergartenfinder.localdatastorage.LocalDataStorageActivity;
+import com.platzerworld.biergartenfinder.network.NetworkActivity;
 import com.platzerworld.biergartenfinder.services.GPSTracker;
 
 public class BiergartenActivity extends AppCompatActivity  {
@@ -202,6 +203,15 @@ public class BiergartenActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(BiergartenActivity.this, CameraActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btnNetwork = (Button)findViewById(R.id.btnNetwork);
+        btnNetwork.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(BiergartenActivity.this, NetworkActivity.class);
                 startActivity(intent);
             }
         });

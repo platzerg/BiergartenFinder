@@ -33,6 +33,8 @@ public class ConnectionChangeReceiver extends BroadcastReceiver {
                 }
             }
         }
-        else Log.i("INTERNET","---------------------> Internet Disconnected. ");
+        else {
+            Log.i("INTERNET","---------------------> Internet Disconnected. ");
+        }
     }
 }
