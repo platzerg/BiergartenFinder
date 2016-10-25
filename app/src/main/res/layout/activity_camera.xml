@@ -9,24 +9,39 @@
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
         >
-        <Button android:text="intend" android:id="@+id/btnIntend"
+        <Button android:text="1" android:id="@+id/btnIntend"
             android:layout_height="wrap_content"
             android:layout_width="0dp"
             android:layout_weight="1" />
-        <Button android:text="intendS" android:id="@+id/btnIntendS"
+        <Button android:text="2" android:id="@+id/btnIntendS"
             android:layout_height="wrap_content"
             android:layout_width="0dp"
             android:layout_weight="1" />
-        <Button android:text="intendV" android:id="@+id/btnIntendV"
+        <Button android:text="3" android:id="@+id/btnIntendV"
             android:layout_height="wrap_content"
             android:layout_width="0dp"
             android:layout_weight="1" />
 
         <Button
-            android:text="IntendA"
+            android:text="4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:id="@+id/btnIntendA"
+            android:layout_weight="1" />
+        <Button
+            android:text="5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCameraLocation"
+            android:layout_weight="1" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:id="@+id/editTextCamera"
             android:layout_weight="1" />
     </LinearLayout>
     <ImageView

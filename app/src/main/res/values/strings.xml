@@ -181,6 +181,7 @@
 
     <string name="cannot">Cannot</string>
     <string name="album_name">Urlaub 2016</string>
+    <string name="title_activity_camera_location">CameraLocationActivity</string>
 
 
 </resources>

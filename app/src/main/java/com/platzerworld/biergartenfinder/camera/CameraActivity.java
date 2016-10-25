@@ -24,10 +24,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.VideoView;
 
+import com.platzerworld.biergartenfinder.GoogleMapsServicesActivity;
 import com.platzerworld.biergartenfinder.R;
+import com.platzerworld.biergartenfinder.maps.GoogleMapsActivity;
 
 public class CameraActivity extends AppCompatActivity {
 
@@ -40,6 +43,8 @@ public class CameraActivity extends AppCompatActivity {
     private static final String IMAGEVIEW_VISIBILITY_STORAGE_KEY = "imageviewvisibility";
     private ImageView mImageView;
     private Bitmap mImageBitmap;
+
+    private EditText editTextCamera;
 
     private static final String VIDEO_STORAGE_KEY = "viewvideo";
     private static final String VIDEOVIEW_VISIBILITY_STORAGE_KEY = "videoviewvisibility";
@@ -63,6 +68,7 @@ public class CameraActivity extends AppCompatActivity {
 
         mImageView = (ImageView) findViewById(R.id.imageView1);
         mVideoView = (VideoView) findViewById(R.id.videoView1);
+        editTextCamera = (EditText) findViewById(R.id.editTextCamera);
         mImageBitmap = null;
         mVideoUri = null;
 
@@ -77,6 +83,15 @@ public class CameraActivity extends AppCompatActivity {
 
         Button btnIntendA = (Button) findViewById(R.id.btnIntendA);
         setBtnListenerOrDisable(btnIntendA, mTakePicAOnClickListener, MediaStore.ACTION_IMAGE_CAPTURE);
+
+        Button btnCameraLocation = (Button)findViewById(R.id.btnCameraLocation);
+        btnCameraLocation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(CameraActivity.this, CameraLocationActivity.class);
+                startActivity(intent);
+            }
+        });
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.FROYO) {
             mAlbumStorageDirFactory = new FroyoAlbumDirFactory();
@@ -97,6 +112,7 @@ public class CameraActivity extends AppCompatActivity {
         if (Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState())) {
 
             storageDir = mAlbumStorageDirFactory.getAlbumStorageDir(getAlbumName());
+            editTextCamera.setText("/n" +storageDir.getAbsolutePath());
 
             if (storageDir != null) {
                 if (! storageDir.mkdirs()) {
