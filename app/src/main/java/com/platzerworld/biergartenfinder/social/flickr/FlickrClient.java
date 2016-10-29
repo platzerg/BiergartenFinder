@@ -11,21 +11,19 @@ import org.scribe.builder.api.FlickrApi;
 
 public class FlickrClient extends OAuthBaseClient {
 
+    // https://www.flickr.com/services/api/
+    // https://www.flickr.com/services/apps/72157675808307785/
+    // https://www.flickr.com/services/apps/72157675808307785/key/
+
     public static final Class<? extends Api> REST_API_CLASS = FlickrApi.class;
 
     public static final String REST_URL = "https://www.flickr.com/services";
 
     public static final String REST_CONSUMER_KEY = "550d0b6b5100f3500be922f46952abe6";
-    // public static final String REST_CONSUMER_KEY = "57ac210e2e82195e071f9a761d763ca0";
-    // 550d0b6b5100f3500be922f46952abe6
 
     public static final String REST_CONSUMER_SECRET = "7bf26d1376f58a11";
-    //public static final String REST_CONSUMER_SECRET = "7d359e4f4149545b";
-    // 7bf26d1376f58a11
 
     public static final String REST_CALLBACK_URL = "oauth://cprest";
-    //public static final String REST_CALLBACK_URL = "oauth://cprest";
-    // Deine Authentifizierungs-URL lautet https://www.flickr.com/auth-72157675808307785
 
     public FlickrClient(Context context) {
         super(context, REST_API_CLASS, REST_URL, REST_CONSUMER_KEY, REST_CONSUMER_SECRET,
