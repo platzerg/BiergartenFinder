@@ -99,4 +99,13 @@
         android:layout_marginTop="14dp"
         android:id="@+id/btnNetwork" />
 
+    <Button
+        android:text="Social"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCamera"
+        android:layout_toEndOf="@+id/btnGooglePlayServices"
+        android:layout_marginTop="6dp"
+        android:id="@+id/btnSocial" />
+
 </RelativeLayout>

@@ -68,14 +68,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/dev/jni" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/dev/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/dev/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDev/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDev/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDev/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDev/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDev/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDev/jni" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDev/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDev/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDev/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDev/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDev/assets" type="java-test-resource" />
@@ -84,6 +76,14 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDev/jni" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDev/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDev/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDev/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDev/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDev/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDev/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDev/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDev/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDev/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDev/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" type="java-resource" />
@@ -109,14 +109,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/jni" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/jni" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
@@ -125,6 +117,14 @@
       <sourceFolder url="file://$MODULE_DIR$/src/test/jni" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />
@@ -157,6 +157,8 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.codepath.libraries/android-oauth-handler/1.1.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.github.Raizlabs.DBFlow/dbflow/4.0.0-beta1/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.6.1/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.6.1/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.6.1/jars" />
@@ -247,6 +249,7 @@
     <orderEntry type="library" exported="" scope="TEST" name="asm-5.0.1" level="project" />
     <orderEntry type="library" exported="" name="palette-v7-24.0.0" level="project" />
     <orderEntry type="library" exported="" name="firebase-common-9.6.1" level="project" />
+    <orderEntry type="library" exported="" name="httpclient-4.3.6" level="project" />
     <orderEntry type="library" exported="" name="firebase-iid-9.6.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-vision-9.6.1" level="project" />
     <orderEntry type="library" exported="" name="platzerworldlib-1.0.0" level="project" />
@@ -266,6 +269,7 @@
     <orderEntry type="library" exported="" name="firebase-config-9.6.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="sqlite4java-0.282" level="project" />
     <orderEntry type="library" exported="" name="play-services-ads-lite-9.6.1" level="project" />
+    <orderEntry type="library" exported="" name="dbflow-core-4.0.0-beta1" level="project" />
     <orderEntry type="library" exported="" name="dagger-2.7" level="project" />
     <orderEntry type="library" exported="" name="commons-codec-1.10" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="classworlds-1.1-alpha-2" level="project" />
@@ -329,6 +333,7 @@
     <orderEntry type="library" exported="" name="play-services-wearable-9.6.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-tagmanager-api-9.6.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-wallet-9.6.1" level="project" />
+    <orderEntry type="library" exported="" name="android-oauth-handler-1.1.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="mockito-core-1.9.5" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="maven-model-2.2.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="xmlpull-1.1.3.1" level="project" />
@@ -336,6 +341,7 @@
     <orderEntry type="library" exported="" name="firebase-auth-9.6.1" level="project" />
     <orderEntry type="library" exported="" name="kotlin-stdlib-1.0.4" level="project" />
     <orderEntry type="library" exported="" name="play-services-gass-9.6.1" level="project" />
+    <orderEntry type="library" exported="" name="flickrj-android-2.1.0" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="espresso-web-2.2.2" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="tagsoup-1.2" level="project" />
     <orderEntry type="library" exported="" name="firebase-messaging-9.6.1" level="project" />
@@ -343,8 +349,10 @@
     <orderEntry type="library" exported="" scope="TEST" name="robolectric-3.1.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-ads-9.6.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-cast-9.6.1" level="project" />
+    <orderEntry type="library" exported="" name="universal-image-loader-1.9.5" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="asm-tree-5.0.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-tasks-9.6.1" level="project" />
+    <orderEntry type="library" exported="" name="dbflow-4.0.0-beta1" level="project" />
     <orderEntry type="library" exported="" name="play-services-awareness-9.6.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="javawriter-2.1.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="maven-project-2.2.1" level="project" />
@@ -365,6 +373,7 @@
     <orderEntry type="library" exported="" scope="TEST" name="xstream-1.4.8" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="wagon-provider-api-1.0-beta-6" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="bcprov-jdk16-1.46" level="project" />
+    <orderEntry type="library" exported="" name="slf4j-api-1.7.21" level="project" />
     <orderEntry type="library" exported="" name="play-services-maps-9.6.1" level="project" />
     <orderEntry type="library" exported="" name="firebase-storage-common-9.6.1" level="project" />
     <orderEntry type="library" exported="" name="support-media-compat-24.2.1" level="project" />
@@ -385,5 +394,6 @@
     <orderEntry type="library" exported="" scope="TEST" name="junit-4.12" level="project" />
     <orderEntry type="library" exported="" name="firebase-analytics-9.6.1" level="project" />
     <orderEntry type="library" exported="" name="org.eclipse.paho.android.service-1.0.2" level="project" />
+    <orderEntry type="library" exported="" name="android-async-http-1.4.9" level="project" />
   </component>
 </module>
