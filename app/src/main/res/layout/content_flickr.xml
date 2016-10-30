@@ -14,7 +14,7 @@
     tools:showIn="@layout/activity_flickr">
 
     <Button
-        android:text="Login to Flickr"
+        android:text="start Flickr Process"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"

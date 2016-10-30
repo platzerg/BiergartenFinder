@@ -8,12 +8,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.platzerworld.biergartenfinder.BiergartenActivity;
 import com.platzerworld.biergartenfinder.R;
 import com.platzerworld.biergartenfinder.RestActivity;
 
 public class FlickrActivity extends AppCompatActivity {
+    private static final int ACTION_FLICKR_LOGIN = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,9 +39,23 @@ public class FlickrActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(FlickrActivity.this, LoginActivity.class);
-                startActivity(intent);
+                startActivityForResult(intent, 1);
             }
         });
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        switch (requestCode) {
+            case ACTION_FLICKR_LOGIN: {
+                if (resultCode == RESULT_OK) {
+                    if (data.hasExtra("login")) {
+                        Toast.makeText(this, data.getExtras().getString("login"),
+                                Toast.LENGTH_SHORT).show();
+                    }
+                }
+                break;
+            } // ACTION_TAKE_PHOTO_B
+        } // switch
+    }
 }

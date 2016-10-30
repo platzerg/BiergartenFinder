@@ -1,13 +1,16 @@
 package com.platzerworld.biergartenfinder.social.flickr;
 
 import android.content.Context;
+import android.net.Uri;
 import android.util.Log;
 
+import com.codepath.oauth.OAuthAsyncHttpClient;
 import com.codepath.oauth.OAuthBaseClient;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 
 import org.scribe.builder.api.Api;
 import org.scribe.builder.api.FlickrApi;
+import org.scribe.model.Token;
 
 public class FlickrClient extends OAuthBaseClient {
 
@@ -23,7 +26,7 @@ public class FlickrClient extends OAuthBaseClient {
 
     public static final String REST_CONSUMER_SECRET = "7bf26d1376f58a11";
 
-    public static final String REST_CALLBACK_URL = "oauth://cprest";
+    public static final String REST_CALLBACK_URL = "oauth://flickrrest";
 
     public FlickrClient(Context context) {
         super(context, REST_API_CLASS, REST_URL, REST_CONSUMER_KEY, REST_CONSUMER_SECRET,
@@ -41,4 +44,26 @@ public class FlickrClient extends OAuthBaseClient {
 
         // flickr.people.getPhotos
     }
+
+    @Override
+    public void clearAccessToken() {
+        super.clearAccessToken();
+    }
+
+    @Override
+    public Token checkAccessToken() {
+        return super.checkAccessToken();
+    }
+
+    @Override
+    public boolean isAuthenticated() {
+        return super.isAuthenticated();
+    }
+
+    @Override
+    protected Token getRequestToken() {
+        return super.getRequestToken();
+    }
+
+
 }

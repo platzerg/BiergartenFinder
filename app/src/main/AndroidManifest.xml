@@ -579,7 +579,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
                 <data
-                    android:host="cprest"
+                    android:host="flickrrest"
                     android:scheme="oauth" />
             </intent-filter>
             <meta-data
